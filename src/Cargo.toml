@@ -1,0 +1,12 @@
+[package]
+name = "selene"
+version = "0.1.0"
+authors = ["WeirdPtr <WeirdPtr@WeirdPtr.com>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+lightlog = "0.1.1"
+tokio = { version = "1.21.2", features = ["full"] }
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1.0.87"
